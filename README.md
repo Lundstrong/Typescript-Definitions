@@ -1,12 +1,12 @@
 <div align="center">
 
 # LundstrongOrders TS
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLundstrong%2FLundstrongOrders-Typescript.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLundstrong%2FLundstrongOrders-Typescript?ref=badge_shield)
 
 Roblox-ts compatibility for working with the API.
 
 <a href="https://github.com/Lundstrong/Edit-Roblox-Place/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Lundstrong/Edit-Roblox-Place"></a>
 <img alt="npm version" src="https://img.shields.io/npm/v/@rbxts/lundstrongorders">
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FLundstrong%2FLundstrongOrders-Typescript?ref=badge_shield"><img alt="FOSSA Status" src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FLundstrong%2FLundstrongOrders-Typescript.svg?type=shield"></a>
 </div>
 
 ## Getting Started
@@ -54,7 +54,4 @@ We love contributions! Pull requests are warmly welcomed and highly appriciated.
 Join the [Lundstrong Discord](https://discord.gg/2w9PmHZPwX).
 
 ## License
-Coming soon.
-
-
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLundstrong%2FLundstrongOrders-Typescript.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLundstrong%2FLundstrongOrders-Typescript?ref=badge_large)
