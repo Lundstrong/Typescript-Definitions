@@ -23,8 +23,6 @@ yarn add @rbxts/lundstrongorders
 npm install @rbxts/lundstrongorders
 ```
 
-Please note `@rbxts/services` is required as a peerDependency, although you should already have it.
-
 ## Usage
 
 An example is below. `ordersAPI` can be changed to any variable name you like, as it is the default export.
@@ -38,6 +36,10 @@ API.onOrderClaimed.Connect((order) => {
 })
 API.SendNotification(plr, "hello this is sasial here!", 10)
 ```
+
+## Versions
+
+Versions will match the versions of the main [LundstrongOrders](https://github.com/Lundstrong/LundstrongOrders) repo. If there are no API changes, the version may **not** be bumped. In the package.json, it is suggested to set the version to `"*"`, because that will match the latest versino of the Roblox Module.
 
 ## Gotchas
 The only 'gotcha' there is with this library, is that you DO NOT give order a type. The compiler will automatically give it the order type because of how the definitions were wrote.
