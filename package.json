@@ -3,6 +3,7 @@
   "version": "2.1.0",
   "description": "",
   "main": "",
+  "typings": "out/index.d.ts",
   "scripts": {
     "prepublishOnly": "rbxtsc"
   },

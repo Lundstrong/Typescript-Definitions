@@ -17,7 +17,7 @@ interface API {
     onOrderCreated: OrderEvent;
 	onOrderClaimed: OrderEvent;
 	onOrderCompleted: OrderEvent;
-	EnableGui(Player: Player, gui: string): void;
+	EnableGui(Player: Player, gui: "cashierGui" | "kioskGui" | "hrScreenGui"): void;
 	SendNotification(Player: Player, message: string, time: number): void
 }
 
