@@ -13,7 +13,7 @@ interface OrderEvent extends RBXScriptSignal {
 	ConnectParallel(this: RBXScriptSignal, callback: (order: Order) => any): RBXScriptConnection;
 }
 
-interface API {
+export interface OrdersAPI {
     onOrderCreated: OrderEvent;
 	onOrderClaimed: OrderEvent;
 	onOrderCompleted: OrderEvent;
@@ -34,5 +34,3 @@ declare module "@rbxts/services" {
 		}
 	}
 }
-
-export default API;
