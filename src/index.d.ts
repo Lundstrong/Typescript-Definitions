@@ -18,7 +18,8 @@ export interface OrdersAPI {
 	onOrderClaimed: OrderEvent;
 	onOrderCompleted: OrderEvent;
 	EnableGui(Player: Player, gui: "cashierGui" | "kioskGui" | "hrScreenGui"): void;
-	SendNotification(Player: Player, message: string, time: number): void
+	SendNotification(Player: Player, message: string, time: number): void;
+	RegisterPluginGuiWithHrScreen(gui: GuiObject): void
 }
 
 declare module "@rbxts/services" {
