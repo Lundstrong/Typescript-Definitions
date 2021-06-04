@@ -360,10 +360,10 @@ eslint-plugin-prettier@3.4.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-roblox-ts@0.0.26:
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-roblox-ts/-/eslint-plugin-roblox-ts-0.0.26.tgz#43853975ed9af158f8fe9d4cfcb5279e2fda11d6"
-  integrity sha512-/JcN84XEDj/CthoSutxQgmDm8uB8sVZAp97vTs0Bsy3WKnQ0bAwr7G5mhe8av7tIvLP+69jl+EM4SX64ntwlvA==
+eslint-plugin-roblox-ts@0.0.27:
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-roblox-ts/-/eslint-plugin-roblox-ts-0.0.27.tgz#b6365f4c7d7c099b47010c76b05aaf8fc09010d5"
+  integrity sha512-wvWk8IIU7dRm4afsPanjXFfuLd5B7E2FO4FKP1k0/d3OomY6fPqrSAcJXdQeVx/T3kgHqeZAcq8edj4NTnhN7A==
   dependencies:
     "@types/node" "^14.14.32"
     "@typescript-eslint/experimental-utils" "^4.16.1"
