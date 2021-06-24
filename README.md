@@ -41,7 +41,7 @@ The module will also add the ModuleScripts for `ReplicatedStorage.LundstrongOrde
 
 ## Versions
 
-Versions will not match the version of the repos this module supports. In the package.json, it is suggested to set the version to `"*"`, because that will match the latest versino of the Roblox Module.
+Versions will not match the version of the repos this module supports. In the package.json, it is suggested to set the version to `"*"`, because that will match the latest version of the product(s).
 
 ## Gotchas
 The only 'gotcha' there is with this library, is that you DO NOT give order a type. The compiler will automatically give it the order type because of how the definitions were wrote.
