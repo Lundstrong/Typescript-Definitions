@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/lundstrong",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "",
   "typings": "out/index.d.ts",
@@ -16,9 +16,6 @@
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@rbxts/services": "^1.1.4"
   },
   "devDependencies": {
     "@rbxts/compiler-types": "1.1.1-types.3",

@@ -21,17 +21,3 @@ export interface OrdersAPI {
 	SendNotification(Player: Player, message: string, time: number): void;
 	RegisterPluginGuiWithHrScreen(gui: GuiObject): void
 }
-
-declare module "@rbxts/services" {
-	interface ReplicatedStorage {
-		LundstrongOrders: {
-			API: ModuleScript
-		}
-	}
-	interface Workspace {
-		LundstrongOrders: {
-			Configuration: ModuleScript;
-			MenuItemsConfig: ModuleScript
-		}
-	}
-}
