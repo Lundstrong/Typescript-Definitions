@@ -20,8 +20,8 @@
   "devDependencies": {
     "@rbxts/compiler-types": "1.1.1-types.5",
     "@rbxts/types": "1.0.505",
-    "@typescript-eslint/eslint-plugin": "4.28.3",
-    "@typescript-eslint/parser": "4.28.3",
+    "@typescript-eslint/eslint-plugin": "8.11.0",
+    "@typescript-eslint/parser": "8.11.0",
     "eslint": "7.30.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
